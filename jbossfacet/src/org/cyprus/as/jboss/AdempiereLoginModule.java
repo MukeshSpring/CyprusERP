@@ -57,6 +57,7 @@ public class AdempiereLoginModule implements LoginModule {
 
 	/**
 	 * commit/complete the authentication project, add identity and roles to subject.
+	 * This is test...
 	 */
 	public boolean commit() throws LoginException {
 		//note that jboss require all user role to be put under the group Roles
